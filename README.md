@@ -34,3 +34,58 @@
     General:
     Local-server -> Landing page -> Basic-info on landing page -> Login/Sign up feature ->
     Donation and Add Shop feature
+
+    From customers perspective:
+    Search box for pincode filters -> Drop down for unique area in this pincode range -> Display Shops list in that area ->
+    Display selected Shop's all info -> Adding himself/herself to queue -> Successful page
+
+    From shop owners perspective:
+    Shop owners dash board -> Editing of offers etc. info -> Deque feature -> Mesaage to customer feature
+    
+   :zap: Anyone can test live working model <a href="https://five-n-dime.herokuapp.com/" target="_blank">here</a>.
+
+### :boy: Dummy customer:
+    You can Register/Login with your own Email Id or you can use our dummy data
+    1.Customer-1
+      a) Email: mayank@gmail.com
+      b) Password: mayank1234 
+
+    2.Customer-2
+      a) Email: aadya@gmail.com
+      b) Password: 12345678 
+#### :zap: You can check the shop searching and adding to queue functionality (customers perspective) using these dummy pincodes:
+    a) 226021
+    b) 226022
+
+### :older_man: Dummy shopowners:
+    You can either use our dummy data or you can register your own dummy shop using you own credentials
+    1.Shopowner-1
+      a) Email: vikram@gmail.com
+      b) Password: 12345678 
+
+    2.Shopowner-2
+      a) Email: shop2@gmail.com
+      b) Password: 12345678
+
+### :pushpin: Note:
+    a) If you want to receive messages after adding yourself to queue, use your real phone number during queue addition.
+    b) Messege facility will not be available from 9 PM to 9 AM.
+
+### :hammer_and_wrench: Installation:
+    1. Cloning repository.
+          git clone <repo link> or locally download zip folder.
+          
+    2. Install all dependencies.
+          npm install
+          
+    3. Set all enviorement variables in .env file.
+          mongodburl=<MONGODB URI>
+          API_KEY=<SMS API key>
+       
+    4. Run web-app on local host.
+          node server (entry js file)
+       
+### :wrench: Contributing:
+     If you have any idea to improve any functionality of our web-app or you want to add any new feature in our web app.
+     You can do that by making some good, valid Pull requests in our repository.
+     
